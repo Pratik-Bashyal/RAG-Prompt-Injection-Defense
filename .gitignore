@@ -1,0 +1,28 @@
+# --- Environments ---
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# --- Large / generated data (regenerate locally) ---
+data/
+*.npz
+*.pt
+dataset.csv
+
+# --- Generated outputs ---
+figures/
+results/
+
+# --- Presentation artifacts ---
+*.pptx
+*.docx
+~$*
+
+# --- Cloned reference repo (not our code) ---
+reference_official/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
